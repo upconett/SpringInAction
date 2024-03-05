@@ -1,0 +1,46 @@
+header {
+    font-family: sans-serif;
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    width: 20vw;
+    margin: auto;
+}
+header h1 {
+    font-weight: bold;
+    text-align: center;
+}
+header ul{
+    display: flex;
+    padding: 0;
+    width: 20vw;
+    margin: auto;
+    justify-content: space-evenly;
+    list-style: none;
+}
+header li {
+    display: inline;
+    font-size: 1.5em;
+}
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 30vw;
+    margin: auto;
+    margin-top: 1vw;
+}
+
+form #newTaskTitle {
+    text-align: center;
+    height: 20px;
+}
+
+form #newTaskDescription {
+    text-align: center;
+    height: 60px;
+}

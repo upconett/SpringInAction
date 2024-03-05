@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" th:href="@{index.css}">
+    <title>ToDoS</title>
+</head>
+<body>
+    <header>
+        <h1>My To-Do List</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">List</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="task-list">
+            <ul>
+                
+            </ul>
+        </section>
+        <form class="add-task-form">
+            <input type="text" class="add-task-input" id="newTaskTitle" placeholder="Title" required>
+            <textarea class="add-task-input" id="newTaskDescription" placeholder="Description" style="resize: none"></textarea>
+            <button type="submit" class="add-task-button">Add Task</button>
+        </form>
+    </main>
+    <footer></footer>
+</body>
+</html>
